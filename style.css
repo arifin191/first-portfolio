@@ -63,3 +63,26 @@ h2{
     background-repeat: no-repeat;
     background-position: left;
 }
+
+.single-box{
+    box-shadow: 10px 10px 30px gray;
+    height: 70%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#boss{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, orangered, lightSalmon);
+    border-image-slice: 1;
+}
+
+#not-boss{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+.middle{
+    text-align: center;
+}
